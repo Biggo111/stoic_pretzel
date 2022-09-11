@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mama_bus_dise/screens/login_page.dart';
+import 'package:mama_bus_dise/screens/signup_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -36,7 +38,9 @@ class _HomePageState extends State<HomePage> {
             height: 60,
             width: 240,
             child: ElevatedButton(
-              onPressed: (){},
+              onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> const LoginPage()));
+              },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Color.fromARGB(255, 49, 48, 47)),
               ),
@@ -56,7 +60,9 @@ class _HomePageState extends State<HomePage> {
             height: 60,
             width: 240,
             child: ElevatedButton(
-              onPressed: (){},
+              onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=> const SignupPage()));
+              },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Color.fromARGB(255, 126, 184, 108)),
               ),

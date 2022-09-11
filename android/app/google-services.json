@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "367991539380",
+    "project_id": "mamabusdire",
+    "storage_bucket": "mamabusdire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367991539380:android:1b2f3093e99a6df99539e1",
+        "android_client_info": {
+          "package_name": "com.example.mama_bus_dise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367991539380-8o4t855dd0f7j4de0up5thlou7v39g2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQiEmGhZq66U11H0cxtlKJii-EkAyXp9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367991539380-8o4t855dd0f7j4de0up5thlou7v39g2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
